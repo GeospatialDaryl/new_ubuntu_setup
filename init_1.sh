@@ -1,3 +1,4 @@
+sudo apt-get update && sudo apt-get upgrade -y
 # 0th - Remove snapd
 sudo apt autoremove --purge snapd
 sudo apt-mark hold snapd
