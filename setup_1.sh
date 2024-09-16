@@ -8,6 +8,8 @@ echo "export WORKON_HOME=$HOME/.virtualenvs" >> /home/frodo/.profile
 echo "export VIRTUALENVWRAPPER_VIRTUALENV=/home/frodo/.local/bin/virtualenv" >> /home/frodo/.profile
 echo "source ~/.local/bin/virtualenvwrapper.sh" >> /home/frodo/.profile
 
+ln -s ~/.local/bin/virtualenvwrapper.sh /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
 source ~/.profile
 
 
