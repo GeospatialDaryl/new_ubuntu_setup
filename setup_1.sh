@@ -9,6 +9,9 @@ echo "export VIRTUALENVWRAPPER_VIRTUALENV=/home/frodo/.local/bin/virtualenv" >> 
 echo "source ~/.local/bin/virtualenvwrapper.sh" >> /home/frodo/.profile
 
 ln -s ~/.local/bin/virtualenvwrapper.sh /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+#disable sleepies
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
 
 source ~/.profile
 
